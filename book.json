@@ -1,0 +1,45 @@
+{
+  "title": "我的GitBook项目",
+  "description": "一个简单而优雅的GitBook文档项目",
+  "author": "scudfei",
+  "language": "zh-hans",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "search",
+    "lunr",
+    "sharing",
+    "fontsettings",
+    "theme-default",
+    "-highlight",
+    "prism",
+    "copy-code-button",
+    "expandable-chapters",
+    "back-to-top-button"
+  ],
+  "pluginsConfig": {
+    "sharing": {
+      "facebook": true,
+      "twitter": true,
+      "google": false,
+      "weibo": true,
+      "instapaper": false,
+      "vk": false,
+      "all": [
+        "facebook", "google", "twitter", "weibo", "instapaper"
+      ]
+    },
+    "fontsettings": {
+      "theme": "white",
+      "family": "sans",
+      "size": 2
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-tomorrow.css"
+      ]
+    }
+  }
+}

@@ -2,6 +2,12 @@
 
 欢迎来到我的第一个GitBook项目！
 
+## 📊 部署状态
+
+✅ **GitBook结构已创建完成**  
+✅ **GitHub Actions配置已就绪**  
+🚀 **正在自动部署中...**
+
 ## 简介
 
 这是一个使用GitBook创建的文档网站，展示了如何从零开始构建一个简单而优雅的在线文档。
@@ -42,7 +48,11 @@
 1. 进入仓库Settings
 2. 找到Pages选项
 3. 选择Source为GitHub Actions
-4. 配置GitBook Action
+4. 等待自动部署完成
+
+### 📱 访问链接
+部署完成后可通过以下地址访问：
+- **GitHub Pages**: https://scudfei.github.io/my-new-repo/
 
 ---
 
